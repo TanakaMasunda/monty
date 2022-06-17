@@ -24,10 +24,10 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	for (i = 0; i < (nmemb * size); i++)
 	{
 		*((char *)(p) + i) = 0;
-		return (p);
 	}
-}
+		return (p);
 
+}
 /**
  * _realloc - change the size and copy the content
  * @ptr: malloc pointer to reallocate
