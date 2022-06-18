@@ -100,4 +100,4 @@ void free_dlistint(stack_t *head);
 /* main function*/
 void free_vglo(void);
 
-#endif /*MONT_H*\
+#endif /*MONTY_H*\
